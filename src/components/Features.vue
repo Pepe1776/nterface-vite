@@ -1,7 +1,7 @@
 <template>
   <!-- Features -->
   <section class="container mx-auto px-6 p-10">
-    <h2 class="text-4xl font-bold text-center text-cyan-700 mb-8">
+    <h2 class="text-shadow-xl com text-9xl font-bold text-center text-cyan-700 mb-8">
       Features
     </h2>
     <div class="flex items-center flex-wrap mb-20">

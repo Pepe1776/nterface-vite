@@ -19,19 +19,19 @@
       </div>
       <div class="container relative mx-auto" data-aos="fade-in">
         <div class="items-center flex flex-wrap">
-          <div class="w-full lg:w-full px-4 ml-auto mr-auto text-center">
+          <div id="name" class="w-full lg:w-full px-4 ml-auto mr-auto text-center">
             <div>
-              <h1 class="text-cyan-600 font-semibold text-5xl">
-                J <span class="text-cyan-500">Parker</span>
+              <h1 id="j" class=" font-semibold text-15xl text-shadow-xl">
+                J <span class="parker">Parker</span>
               </h1>
-              <p class="lato text-xl text-gray-700">
+              <p class="p-2 mt-5 text-2xl text-shadow-xl">
                 Fully responsive and extremely fast modern applications and web pages tailor made for each customers needs and wants
               </p>
 
               <a
                 id="learn"
                 href="#"
-                class="nter bg-transparent hover:bg-cyan-500 text-cyan-600 font-bold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
+                class="shadow-2xl text-shadow-2xl nter bg-transparent hover:bg-cyan-500 text-cyan-600 font-bold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer hover:translate-y-5 active:translate-y-5"
               >Enhance</a>
             </div>
           </div>
@@ -74,7 +74,7 @@
           >
             <div class="md:pr-12">
               <small class="lato text-cyan-100">About my work</small>
-              <h3 class="nter text-cyan-400 text-4xl uppercase font-bold">
+              <h3 class="com text-cyan-400 text-4xl uppercase font-bold">
                 Full Stack
               </h3>
 
@@ -133,7 +133,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="nter text-cyan-500 text-4xl font-semibold uppercase">
+            <h2 class="text-shadow-xl com text-cyan-500 text-6xl font-semibold uppercase">
               Demo Projects
             </h2>
             <p class="text-lg text-gray-300 leading-relaxed m-4 lato">
@@ -230,7 +230,7 @@
       <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
         <div class="flex flex-wrap text-center justify-center">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="nter text-4xl font-semibold text-white uppercase">
+            <h2 class="com text-6xl font-semibold text-white uppercase">
               Contact Us
             </h2>
             <p class="text-lg leading-relaxed mt-4 mb-4">
@@ -348,7 +348,8 @@ export default {
 
 }</script>
 
-<style scoped>
+<style>
+
 #learn:hover {
  transition: all .5s ease-in-out;
  transform: translateY(-5px);
@@ -358,5 +359,19 @@ transition: all .1s ease-in-out;
  transform: translateY(5px);
  opacity: 0.5;
 }
-
+h1 {
+  font-family: 'Comforter', cursive;
+}
+.com {
+  font-family: 'Comforter', cursive;
+}
+#j {
+  color: black;
+}
+.parker {
+  color: black;
+}
+p {
+  color: var(--main);
+}
 </style>
