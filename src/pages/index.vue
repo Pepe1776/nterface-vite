@@ -19,8 +19,7 @@ const { t } = useI18n()
     <Main />
     <Features />
     <Hero />
-    <CallToAction />
-    <Testimonals />
+    <Form />
     <Footerb />
   </div>
 </template>

@@ -14,12 +14,12 @@
         </p>
       </div>
       <div class="w-full md:w-1/2">
-        <img src="https://images.unsplash.com/photo-1542751110-97427bbecf20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1568&q=80" alt="Monitoring">
+        <img class="rounded-2xl" src="https://images.unsplash.com/photo-1542751110-97427bbecf20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1568&q=80" alt="Monitoring">
       </div>
     </div>
     <div class="flex items-center flex-wrap mb-20">
       <div class="w-full md:w-1/2">
-        <img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1594&q=80" alt="Reporting">
+        <img class="rounded-2xl" src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1594&q=80" alt="Reporting">
       </div>
       <div class="w-full md:w-1/2 pl-10">
         <h4 class="text-3xl text-cyan-900 font-bold mb-3">
@@ -44,7 +44,7 @@
         </p>
       </div>
       <div class="w-full md:w-1/2">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80" alt="Syncing">
+        <img class="rounded-2xl" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80" alt="Syncing">
       </div>
     </div>
   </section>
