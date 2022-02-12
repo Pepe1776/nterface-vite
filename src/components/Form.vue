@@ -46,17 +46,17 @@
                 Complete this form and we will get back to you in 24 hours.
               </p>
               <form
-                name="contact"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
+                action="https://formkeep.com/f/fa0e7350ff41"
+                accept-charset="UTF-8"
+                enctype="multipart/form-data"
+                method="POST"
               >
-                <input type="hidden" name="contact" value="contact">
                 <div class="relative w-full mb-3 mt-8">
                   <label
                     class="block uppercase text-xs font-bold mb-2"
                     for="full-name"
                   >Full Name</label><input
-                    v-model="name"
+
                     type="text"
                     class="px-3 py-3 placeholder-gray-800 text-gray-500 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     placeholder="Full Name"
@@ -68,7 +68,7 @@
                     class="block uppercase text-xs font-bold mb-2"
                     for="email"
                   >Email</label><input
-                    v-model="email"
+
                     type="email"
                     class="px-3 py-3 placeholder-gray-800 text-gray-500 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     placeholder="Email"
@@ -80,7 +80,7 @@
                     class="block uppercase text-xs font-bold mb-2"
                     for="message"
                   >Message</label><textarea
-                    v-model="text"
+
                     rows="4"
                     cols="80"
                     class="px-3 py-3 placeholder-gray-800 bg-white text-gray-500 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
@@ -91,7 +91,6 @@
                   <button
                     id="learn"
                     class="bg-transparent hover:bg-lime-400 hover:text-cyan-800 text-white font-semibold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer active:translate-y-5"
-                    type="submit"
                     style="transition: all 0.15s ease 0s"
                   >
                     Send Message
@@ -106,31 +105,21 @@
   </section>
 </template>
 
-<script lang="ts">
-export default {
-  data() {
-    return {
-      username: '',
-      email: '',
-      password: '',
-    }
-  },
-  methods: {
-    // submit the form to our backend api
-    async submitForm() {
-      const res = await fetch('/backend-api', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+<script setup lang="ts">
+// import { getDatabase, ref, set } from 'firebase/database'
+//
+// const db = getDatabase()
+// set(ref(db, 'Forms'), {
+//   name: '',
+//   email: '',
+//   text: '',
+// })
+//   .then(() => {
+//   // Data saved successfully!
+//   })
+//   .catch((_error) => {
+//   // The write failed...
+//     return { name, email, text }
+//   })
 
-        // pass in the information from our form
-        body: JSON.stringify({
-          username: this.username,
-          email: this.email,
-          password: this.password,
-        }),
-
-      })
-    },
-  },
-
-}</script>
+</script>

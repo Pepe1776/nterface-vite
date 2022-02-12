@@ -14,6 +14,7 @@
   "dependencies": {
     "@vueuse/core": "^7.5.5",
     "@vueuse/head": "^0.7.5",
+    "firebase": "^9.6.6",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.11",
     "prism-theme-vars": "^0.2.2",
@@ -26,6 +27,7 @@
     "@antfu/eslint-config": "^0.16.1",
     "@iconify-json/carbon": "^1.0.14",
     "@intlify/vite-plugin-vue-i18n": "^3.2.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
     "@types/markdown-it-link-attributes": "^3.0.1",
     "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^2.1.0",
@@ -39,6 +41,7 @@
     "markdown-it-link-attributes": "^4.0.0",
     "markdown-it-prism": "^2.2.2",
     "pnpm": "^6.30.0",
+    "rollup": "^2.67.2",
     "typescript": "^4.5.5",
     "unplugin-auto-import": "^0.5.11",
     "unplugin-icons": "^0.13.0",
